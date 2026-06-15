@@ -1,6 +1,17 @@
 # ROS2_Gazebo_Patrol_Project
 
-#실행 방법
+# 환경
+Ubuntu 22,04
+ROS2 Humble
+
+# 기술
+Gazebo
+turtlebot3
+rviz2
+nav2
+SLAM
+
+# 실행 방법
 1. 저장한 월드 실행
 gazebo worlds/test_world.world
 
