@@ -24,33 +24,33 @@ ROS2 Humble, Gazebo Classic, Nav2를 이용한 자율 순찰 로봇 프로젝트
   
 ## Run
 
--launch로 한번에 실행하기
-export TURTLEBOT3_MODEL=burger
+### launch로 한번에 실행하기
+- export TURTLEBOT3_MODEL=burger
 
-source install/setup.bash
+- source install/setup.bash
 
-ros2 launch test_world_robot_control test_world_launch.py
+- ros2 launch test_world_robot_control test_world_launch.py
 
--하나씩 실행하기
+### 하나씩 실행하기
 
 1. 저장한 월드 실행
-gazebo worlds/test_world.world
+- gazebo worlds/test_world.world
 
 2. 터틀봇 스폰
-export TURTLEBOT3_MODEL=burger
+- export TURTLEBOT3_MODEL=burger
 
-ros2 run gazebo_ros spawn_entity.py -file /opt/ros/humble/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf -entity turtlebot3
+- ros2 run gazebo_ros spawn_entity.py -file /opt/ros/humble/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf -entity turtlebot3
 
 3. robot_state_publisher 실행
-ros2 launch turtlebot3_gazebo robot_state_publisher.launch.py
+- ros2 launch turtlebot3_gazebo robot_state_publisher.launch.py
 
 4. Nav2 실행
-ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=maps/test_world_map.yaml use_sim_time:=true
+- ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=maps/test_world_map.yaml use_sim_time:=true
 
 5. RViz 열리면 2D Pose Estimate로 위치 클릭 후 방향 드래그
 
 6. 패트롤 실행
-ros2 run test_world_robot_control test_world_robot_patrol
+- ros2 run test_world_robot_control test_world_robot_patrol
 
 ## 최근 업데이트
 ### 2026-06-16 
