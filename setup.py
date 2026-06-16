@@ -14,6 +14,8 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*'))),
         (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.world')),
+        (os.path.join('share', package_name, 'maps'), glob('maps/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -28,7 +30,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'test_world_robot_patrol = test_world_robot_control.test_world_robot_patrol:main'
+            'test_world_robot_patrol = test_world_robot_control.test_world_robot_patrol:main',
+            'initial_pose_publisher = test_world_robot_control.initial_pose_publisher:main',
         ],
     },
 )
