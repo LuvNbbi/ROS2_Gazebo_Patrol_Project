@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/a09bbd53-8dd7-4e03-b732-c5740a5f3e7e
 ## 최근 업데이트
 ### 2026-06-16 
 
--launch 파일 생성하여 한번에 실행
+- launch 파일 생성하여 한번에 실행
 
 ## TODO
 
