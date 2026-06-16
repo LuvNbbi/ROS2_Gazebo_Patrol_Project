@@ -1,8 +1,16 @@
 # ROS2_Gazebo_Patrol_Project
 
-ROS2 Humble, Gazebo Classic, Nav2를 이용한 자율 순찰 로봇 프로젝트입니다.
+- ROS2 Humble, Gazebo Classic, Nav2를 이용한 자율 순찰 로봇 프로젝트입니다.
 
-커스텀 Gazebo 환경에서 Turtlebot3를 동적으로 생성하고, AMCL 기반 위치 추정 후 지정된 경유지를 자동 순찰합니다.
+- 커스텀 Gazebo 환경에서 Turtlebot3를 동적으로 생성하고, AMCL 기반 위치 추정 후 지정된 경유지를 자동 순찰합니다.
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/a09bbd53-8dd7-4e03-b732-c5740a5f3e7e
+
+
 
 ## Tech stack
 
