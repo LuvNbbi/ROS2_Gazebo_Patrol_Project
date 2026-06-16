@@ -21,25 +21,7 @@ ROS2 Humble, Gazebo Classic, Nav2를 이용한 자율 순찰 로봇 프로젝트
 - Nav2 Path Planning
 - Autonomous Patrol
 - One-click Launch System
-
-Launch
- │
- ├── Gazebo World
- │
- ├── Robot State Publisher
- │
- ├── Spawn TurtleBot3
- │
- ├── Nav2
- │     ├── Map Server
- │     ├── AMCL
- │     ├── Planner Server
- │     └── Controller Server
- │
- ├── Initial Pose Publisher
- │
- └── Patrol Node
-
+  
 ## Run
 
 -launch로 한번에 실행하기
