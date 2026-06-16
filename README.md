@@ -59,5 +59,5 @@ ROS2 Humble, Gazebo Classic, Nav2를 이용한 자율 순찰 로봇 프로젝트
 
 ## TODO
 
--Waypoint YAML 사용하기
--Multi-robot 사용해보기
+- Waypoint YAML 사용하기
+- Multi-robot 사용해보기
