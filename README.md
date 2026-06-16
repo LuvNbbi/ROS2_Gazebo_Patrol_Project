@@ -49,10 +49,15 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=maps/test_world_ma
 
 5. RViz 열리면 2D Pose Estimate로 위치 클릭 후 방향 드래그
 
+6. 패트롤 실행
+ros2 run test_world_robot_control test_world_robot_patrol
+
 ## 최근 업데이트
 ### 2026-06-16 
 
 -launch 파일 생성하여 한번에 실행
 
-7. 패트롤 실행
-ros2 run test_world_robot_control test_world_robot_patrol
+## TODO
+
+-Waypoint YAML 사용하기
+-Multi-robot 사용해보기
