@@ -20,15 +20,6 @@ https://github.com/user-attachments/assets/a09bbd53-8dd7-4e03-b732-c5740a5f3e7e
 - AMCL
 - TurtleBot3
 - Python
-
-## Features
-
-- Custom Gazebo World
-- Dynamic TurtleBot3 Spawn
-- AMCL Localization
-- Nav2 Path Planning
-- Autonomous Patrol
-- One-click Launch System
   
 ## Run
 
