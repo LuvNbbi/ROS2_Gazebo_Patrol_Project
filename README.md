@@ -6,11 +6,17 @@
 
 ## Demo
 
-
-
 https://github.com/user-attachments/assets/a09bbd53-8dd7-4e03-b732-c5740a5f3e7e
 
+## Features
+- Gazebo 환경 구성
+- SLAM Toolbox를 이용한 맵 생성
+- Nav2를 이용한 경로 계획 및 자율 주행
+- Waypoint 기반 순찰 기능 구현
+- Rviz2를 통한 센서 및 경로 시각화
 
+## System Architecture
+Gazebo 시뮬레이션 환경에 터틀봇3 모델을 소환하여 SLAM을 이용해 지도를 생성. 생성된 맵을 기반으로 Nav2가 경로를 계획하여 기록해놓은 6개의 Waypoint를 자율 주행을 통해 순서대로 방문.
 
 ## Tech stack
 
