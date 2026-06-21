@@ -1,4 +1,4 @@
-# ROS2_Gazebo_Patrol_Project
+# ROS2 Gazebo 환경 자율 주행 시뮬레이션 프로젝트
 
 - ROS2 Humble, Gazebo Classic, Nav2를 이용한 자율 순찰 로봇 프로젝트입니다.
 
